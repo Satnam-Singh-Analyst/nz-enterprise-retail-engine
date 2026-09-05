@@ -17,17 +17,20 @@ This project presents a normalized (3NF) relational database schema and producti
 
 The database consists of 5 normalized tables connected through primary and foreign key constraints to ensure strict data integrity.
 
-┌─────────────────┐
-│   nz_regions    │
-└────────┬────────┘
-         │ 1:N
-┌────────┴────────┐
-│    customers    │
-└────────┬────────┘
-         │ 1:N
-┌──────────────┐1:N ┌────┴────┐ 1:N ┌──────────────┐
-│   products   ├───┤order_items├───┤    orders    │
-└──────────────┘    └─────────┘     └──────────────┘
+```text
+                  ┌─────────────────┐
+                  │   nz_regions    │
+                  └────────┬────────┘
+                           │ 1:N
+                  ┌────────┴────────┐
+                  │    customers    │
+                  └────────┬────────┘
+                           │ 1:N
+  ┌──────────────┐1:N ┌────┴────┐ 1:N ┌──────────────┐
+  │   products   ├───┤order_items├───┤    orders    │
+  └──────────────┘    └─────────┘     └──────────────┘
+```
+
 
 ### Entity Specifications
 
