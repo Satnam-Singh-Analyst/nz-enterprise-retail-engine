@@ -94,5 +94,5 @@ Executes set operations to immediately isolate products from the catalog that ha
 ## 👤 Author
 Satnam Singh
 * Master of Arts (Economics) Student | Massey University
-* LinkedIn: https://www.linkedin.com/in/satnamsingh
+* LinkedIn: https://www.linkedin.com/in/satnam-singh-3b124a230/
 * Focus: Business Intelligence, Retail Data Analytics, SQL Database Architecture & Financial Modeling
