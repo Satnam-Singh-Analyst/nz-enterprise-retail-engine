@@ -68,7 +68,7 @@ Executes set operations to immediately isolate products from the catalog that ha
 
 ### Execution Steps
 1. Clone this repository:
-   git clone https://github.com/YOUR_USERNAME/nz-enterprise-retail-engine.git
+   git clone https://github.com/Satnam-Singh-Analyst/nz-enterprise-retail-engine.git
    cd nz-enterprise-retail-engine
 
 2. Open your SQL client and create a new database:
